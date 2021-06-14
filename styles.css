@@ -2,21 +2,27 @@ body {
   margin: 0;
 }
 
-header {
+.header-container {
   margin: 0;
   background-color: rgba(34, 49, 52, 0.9);
   color: white;
   font-family: 'Anton', sans-serif;
   letter-spacing: 2px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
 }
 
 header h1 {
   margin: 0;
 }
 
-.line {
-  display: block;
-  float: right;
+.header-left {
+  margin: auto 0;
+}
+
+.header-right {
+  line-height: 50px;
 }
 
 main {
@@ -96,16 +102,36 @@ span {
   color: red;
 }
 
-.font {
+.lesson-wrapper {
+  background-image: url(b022.jpg);
+  background-size: cover;
+}
+
+.font-container {
+  text-align:center;
+}
+
+.heading {
   clear: both;
   text-align: center;
 }
 
-.font li {
-  list-style: none;
-  float: left;
-  width: 25%;
+.lesson {
+  float:left;
+  width:25%;
 }
+
+.lesson-icon {
+  position:relative;
+}
+
+.lesson-icon p {
+  position:absolute;
+  top:70px;
+  width:100%;
+  color:white;
+}
+
 
 footer {
   width: 100%;
